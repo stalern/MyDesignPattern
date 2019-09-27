@@ -1,4 +1,6 @@
-package com.stalern.factory;
+package com.stalern.factorymethod.factory;
+
+import com.stalern.factorymethod.product.ImageReader;
 
 /**
  * 图片阅读工厂接口

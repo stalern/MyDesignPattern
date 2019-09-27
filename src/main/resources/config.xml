@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <factory>
-        <className>GifReaderFactory</className>
-    </factory>
+    <design-pattern pattern="factoryMethod">
+        <class-name>JpgReaderFactory</class-name>
+    </design-pattern>
 </config>
+        <!--该xml格式只能是这样，即design只能有一个子节点，只能有一个class-->

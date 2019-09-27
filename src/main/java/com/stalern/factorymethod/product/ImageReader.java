@@ -1,4 +1,4 @@
-package com.stalern.factory;
+package com.stalern.factorymethod.product;
 
 /**
  * 产品接口

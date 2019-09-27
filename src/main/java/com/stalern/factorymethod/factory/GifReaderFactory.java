@@ -1,7 +1,10 @@
-package com.stalern.factory;
+package com.stalern.factorymethod.factory;
+
+import com.stalern.factorymethod.product.GifReader;
+import com.stalern.factorymethod.product.ImageReader;
 
 /**
- * 具体工厂类代码
+ * gif具体工厂类代码
  * @author stalern
  * @date 2019年9月26日11:09:12
  */

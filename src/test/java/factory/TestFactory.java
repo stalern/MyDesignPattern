@@ -9,6 +9,6 @@ import com.stalern.util.ReadXml;
  */
 public class TestFactory {
     public static void main(String[] args) {
-        ReadXml.getObject();
+        ReadXml.getObject("com.stalern.factorymethod.factory", "factoryMethod");
     }
 }

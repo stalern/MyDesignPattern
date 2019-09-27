@@ -1,6 +1,6 @@
 package com.stalern.run;
 
-import com.stalern.factory.FactoryClient;
+import com.stalern.factorymethod.FactoryMethodClient;
 
 /**
  * 启动类
@@ -9,6 +9,6 @@ import com.stalern.factory.FactoryClient;
  */
 public class Launch {
     public static void main(String[] args) {
-        FactoryClient.runFactory();
+        FactoryMethodClient.runFactory();
     }
 }
