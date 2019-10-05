@@ -17,6 +17,7 @@ import java.io.File;
 public class ReadXml {
 
     private final static String CLASS_NAME = "class-name";
+    private ReadXml(){}
     /**
      * 获取xml中具体类的类名和对象
      * @return object
@@ -38,7 +39,6 @@ public class ReadXml {
                     // 因为只有子节点className只有一个
                     String cName = packageName + "."+design.getFirstChild().getNodeValue();
 
-                    //System.out.println("新类名："+cName);
                     Class<?> c = Class.forName(cName);
                     return c.getDeclaredConstructor().newInstance();
                 }
