@@ -1,4 +1,4 @@
-package com.stalern.factorymethod.product;
+package com.stalern.designpattern.factorymethod.product;
 
 /**
  * @author stalern

@@ -1,4 +1,4 @@
-package com.stalern.singleton.hungry;
+package com.stalern.designpattern.singleton.hungry;
 
 import com.stalern.util.StringUtils;
 

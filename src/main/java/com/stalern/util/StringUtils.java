@@ -19,7 +19,7 @@ public class StringUtils {
         }
         return true;
     }
-    public static int length(String str) {
+    private static int length(String str) {
         return str == null ? 0 : str.length();
     }
 }

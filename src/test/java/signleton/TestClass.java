@@ -1,8 +1,8 @@
 package signleton;
 
-import com.stalern.singleton.hungry.EnumInstance;
-import com.stalern.singleton.hungry.HungrySingleton;
-import com.stalern.singleton.lazy.GirlFriend;
+import com.stalern.designpattern.singleton.hungry.EnumInstance;
+import com.stalern.designpattern.singleton.hungry.HungrySingleton;
+import com.stalern.designpattern.singleton.lazy.GirlFriend;
 
 import java.lang.reflect.Constructor;
 

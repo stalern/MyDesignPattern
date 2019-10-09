@@ -1,7 +1,7 @@
-package com.stalern.factorymethod.factory;
+package com.stalern.designpattern.factorymethod.factory;
 
-import com.stalern.factorymethod.product.GifReader;
-import com.stalern.factorymethod.product.ImageReader;
+import com.stalern.designpattern.factorymethod.product.GifReader;
+import com.stalern.designpattern.factorymethod.product.ImageReader;
 
 /**
  * gif具体工厂类代码

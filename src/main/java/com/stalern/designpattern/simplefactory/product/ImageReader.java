@@ -1,9 +1,8 @@
-package com.stalern.factorymethod.product;
+package com.stalern.designpattern.simplefactory.product;
 
 /**
- * 产品接口
  * @author stalern
- * @date 2019/9/26--11:20
+ * @date 2019/10/9--19:53
  */
 public interface ImageReader {
     /**

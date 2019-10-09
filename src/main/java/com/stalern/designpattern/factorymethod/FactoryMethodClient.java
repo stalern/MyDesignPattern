@@ -1,6 +1,6 @@
-package com.stalern.factorymethod;
+package com.stalern.designpattern.factorymethod;
 
-import com.stalern.factorymethod.factory.ImageReaderFactory;
+import com.stalern.designpattern.factorymethod.factory.ImageReaderFactory;
 import com.stalern.util.ReadXml;
 
 /**

@@ -1,4 +1,4 @@
-package com.stalern.singleton.lazy;
+package com.stalern.designpattern.singleton.lazy;
 
 /**
  * 线程安全懒汉式单例模式 方法1——一个锁，开销大

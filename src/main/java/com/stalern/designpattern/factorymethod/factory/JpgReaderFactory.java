@@ -1,7 +1,7 @@
-package com.stalern.factorymethod.factory;
+package com.stalern.designpattern.factorymethod.factory;
 
-import com.stalern.factorymethod.product.ImageReader;
-import com.stalern.factorymethod.product.JpgReader;
+import com.stalern.designpattern.factorymethod.product.JpgReader;
+import com.stalern.designpattern.factorymethod.product.ImageReader;
 
 /**
  * jpg具体工厂实现类代码

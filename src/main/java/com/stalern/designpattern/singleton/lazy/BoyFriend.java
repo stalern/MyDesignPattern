@@ -1,4 +1,4 @@
-package com.stalern.singleton.lazy;
+package com.stalern.designpattern.singleton.lazy;
 
 /**
  * 多线程懒汉式单例模式 方法2——双重锁机制

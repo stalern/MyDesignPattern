@@ -1,4 +1,4 @@
-package com.stalern.singleton.hungry;
+package com.stalern.designpattern.singleton.hungry;
 
 /**
  * Effective Java 枚举类生成单例模式

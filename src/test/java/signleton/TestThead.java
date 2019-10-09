@@ -1,7 +1,7 @@
 package signleton;
 
-import com.stalern.singleton.lazy.BoyFriend;
-import com.stalern.singleton.lazy.GirlFriend;
+import com.stalern.designpattern.singleton.lazy.BoyFriend;
+import com.stalern.designpattern.singleton.lazy.GirlFriend;
 
 /**
  * 线程测试类
