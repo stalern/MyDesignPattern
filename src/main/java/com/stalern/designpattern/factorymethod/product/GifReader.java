@@ -8,6 +8,6 @@ public class GifReader implements ImageReader {
 
     @Override
     public void imageReader() {
-        System.out.println("Gif reader is init");
+        System.out.println("FactoryMethod: Gif reader is init");
     }
 }

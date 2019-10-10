@@ -7,6 +7,6 @@ package com.stalern.designpattern.simplefactory.product;
 public class GifReader implements ImageReader{
     @Override
     public void imageReader() {
-        System.out.println("Gif reader init");
+        System.out.println("FactoryMethod: Gif reader init");
     }
 }

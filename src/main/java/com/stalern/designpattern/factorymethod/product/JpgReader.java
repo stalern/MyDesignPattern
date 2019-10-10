@@ -8,6 +8,6 @@ public class JpgReader implements ImageReader{
 
     @Override
     public void imageReader() {
-        System.out.println("Jpg reader is init");
+        System.out.println("FactoryMethod: Jpg reader is init");
     }
 }

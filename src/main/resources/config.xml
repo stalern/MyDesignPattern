@@ -6,5 +6,8 @@
     <design-pattern pattern="simpleFactory">
         <class-name>Gif</class-name>
     </design-pattern>
+    <design-pattern pattern="absoluteFactory">
+        <class-name>JpgReaderFactory</class-name>
+    </design-pattern>
 </config>
-        <!--该xml格式只能是这样，即design只能有一个子节点，只能有一个class-->
+<!--该xml格式只能是这样，即design只能有一个子节点，只能有一个class-->
