@@ -13,7 +13,7 @@ import com.stalern.designpattern.decorator.decorator.Lipstick;
 public class DecoratorClient {
 
     public static void runDecorator() {
-        Friends goRachel = new Clothes(new Lipstick(new EyeShadow(new Rachel())));
-        goRachel.doSomething();
+        Friends rachel = new Clothes(new Lipstick(new EyeShadow(new Rachel())));
+        rachel.doSomething();
     }
 }
