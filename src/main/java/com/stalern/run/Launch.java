@@ -1,8 +1,10 @@
 package com.stalern.run;
 
 import com.stalern.designpattern.abstractfactory.AbstractFactoryClient;
+import com.stalern.designpattern.decorator.DecoratorClient;
 import com.stalern.designpattern.factorymethod.FactoryMethodClient;
 import com.stalern.designpattern.simplefactory.SimpleFactoryClient;
+
 
 /**
  * 启动类
@@ -14,5 +16,6 @@ public class Launch {
         FactoryMethodClient.runFactory();
         SimpleFactoryClient.runFactory();
         AbstractFactoryClient.runFactory();
+        DecoratorClient.runDecorator();
     }
 }
