@@ -20,6 +20,6 @@ public class Launch {
         AbstractFactoryClient.runFactory();
         DecoratorClient.runDecorator();
         Client.run();
-        ProxyClient.runProxy();
+        ProxyClient.runDynamicProxy();
     }
 }
