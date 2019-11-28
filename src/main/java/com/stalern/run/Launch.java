@@ -6,6 +6,7 @@ import com.stalern.designpattern.decorator.extend.Client;
 import com.stalern.designpattern.factorymethod.FactoryMethodClient;
 import com.stalern.designpattern.proxy.ProxyClient;
 import com.stalern.designpattern.simplefactory.SimpleFactoryClient;
+import com.stalern.designpattern.templatemethod.TemplateClient;
 
 
 /**
@@ -21,5 +22,6 @@ public class Launch {
         DecoratorClient.runDecorator();
         Client.run();
         ProxyClient.runDynamicProxy();
+        TemplateClient.runTemplate();
     }
 }
