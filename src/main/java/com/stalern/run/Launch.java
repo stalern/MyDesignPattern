@@ -1,6 +1,7 @@
 package com.stalern.run;
 
 import com.stalern.designpattern.abstractfactory.AbstractFactoryClient;
+import com.stalern.designpattern.adapter.AdapterClient;
 import com.stalern.designpattern.decorator.DecoratorClient;
 import com.stalern.designpattern.decorator.extend.Client;
 import com.stalern.designpattern.factorymethod.FactoryMethodClient;
@@ -16,12 +17,13 @@ import com.stalern.designpattern.templatemethod.TemplateClient;
  */
 public class Launch {
     public static void main(String[] args) {
-        FactoryMethodClient.runFactory();
-        SimpleFactoryClient.runFactory();
-        AbstractFactoryClient.runFactory();
-        DecoratorClient.runDecorator();
-        Client.run();
-        ProxyClient.runDynamicProxy();
-        TemplateClient.runTemplate();
+//        FactoryMethodClient.runFactory();
+//        SimpleFactoryClient.runFactory();
+//        AbstractFactoryClient.runFactory();
+//        DecoratorClient.runDecorator();
+//        Client.run();
+//        ProxyClient.runDynamicProxy();
+//        TemplateClient.runTemplate();
+        AdapterClient.runAdapter();
     }
 }
