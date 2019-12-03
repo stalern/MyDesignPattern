@@ -2,6 +2,8 @@ package com.stalern.run;
 
 import com.stalern.designpattern.abstractfactory.AbstractFactoryClient;
 import com.stalern.designpattern.adapter.AdapterClient;
+import com.stalern.designpattern.bridge.BridgeClient;
+import com.stalern.designpattern.composite.CompositeClient;
 import com.stalern.designpattern.decorator.DecoratorClient;
 import com.stalern.designpattern.decorator.extend.Client;
 import com.stalern.designpattern.factorymethod.FactoryMethodClient;
@@ -24,6 +26,12 @@ public class Launch {
 //        Client.run();
 //        ProxyClient.runDynamicProxy();
 //        TemplateClient.runTemplate();
-        AdapterClient.runAdapter();
+//        AdapterClient.runAdapter();
+//        BridgeClient.runBridge();
+        try {
+            CompositeClient.runComposite();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

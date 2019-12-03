@@ -9,7 +9,7 @@ public class WindowsMediaPlayer implements Adaptee{
     /**
      * 打开windowsMediaPlayer
      */
-    void windowsMediaPlayerOpen(){
+    private void windowsMediaPlayerOpen(){
         System.out.println("打开了WindowsMediaPlayer媒体播放器");
     }
 

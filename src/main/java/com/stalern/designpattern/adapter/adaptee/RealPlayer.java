@@ -6,7 +6,7 @@ package com.stalern.designpattern.adapter.adaptee;
  * @date 2019/12/03~14:50
  */
 public class RealPlayer implements Adaptee{
-    public void realPlayerOpen() {
+    private void realPlayerOpen() {
         System.out.println("打开了RealPlayer媒体播放器");
     }
 

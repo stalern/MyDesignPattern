@@ -9,7 +9,7 @@ import com.stalern.designpattern.adapter.adaptee.Adaptee;
  */
 public class PlayerAdapter implements Player {
 
-    private Adaptee adaptee = null;
+    private Adaptee adaptee;
     public PlayerAdapter(Adaptee adaptee) {
         this.adaptee = adaptee;
     }
